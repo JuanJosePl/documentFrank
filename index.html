@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Una experiencia completa · Exploración para el Dr. Frank Lamadrid · Juan &amp; Roger</title>
+  <meta name="description" content="Exploración editorial y digital preparada por iniciativa propia por Juan y Roger para el Instituto Dr. Frank Lamadrid." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#apertura">Saltar a la lectura</a>
+
+  <header class="bar" aria-label="Navegación del documento">
+    <span class="mono bar__mark">J&amp;R <span class="dim">/ Exploración para el Dr. Frank Lamadrid</span></span>
+    <span class="mono bar__chapter" id="chapter" aria-live="polite">00 — Portada</span>
+    <div class="bar__progress" aria-hidden="true"><i id="progress"></i></div>
+  </header>
+
+  <main>
+    <!-- 00 · PORTADA -->
+    <section class="cover" data-theme="dark" data-chapter="00 — Portada" aria-label="Portada">
+      <p class="mono gold cover__kicker" data-reveal>Documento de exploración · No solicitado · 2026</p>
+      <h1 class="display cover__title" data-split>
+        Lo que usted ofrece no es solo un procedimiento. <em>Es una experiencia completa.</em>
+      </h1>
+      <div class="cover__foot" data-reveal>
+        <p class="lede">Nos tomamos esa frase en serio y nos preguntamos cómo se vería en lo digital.</p>
+        <p class="mono dim">Preparado por Juan &amp; Roger · Diseño editorial y desarrollo digital</p>
+      </div>
+      <div class="cover__cue mono dim" aria-hidden="true"><span>Desplazar para leer</span><i></i></div>
+    </section>
+
+    <!-- 01 · APERTURA -->
+    <section id="apertura" class="chapter" data-theme="dark" data-chapter="01 — Apertura" aria-labelledby="t-apertura">
+      <div class="chapter__head">
+        <p class="mono gold" data-reveal>01 / Apertura</p>
+        <h2 id="t-apertura" class="display h2" data-split>Quiénes somos, <em>y por qué hicimos esto.</em></h2>
+      </div>
+      <div class="cols">
+        <div class="prose" data-reveal>
+          <p>Somos Juan y Roger. Uno trabaja la forma: tipografía, ritmo, la manera en que una página se lee. El otro trabaja la estructura: el código, los flujos, lo que hace que una idea funcione en un teléfono a las once de la noche.</p>
+          <p>Nadie nos pidió este documento. Lo preparamos porque usted hace una promesa pública muy concreta, y creemos que esa promesa merece una experiencia digital que la sostenga de principio a fin.</p>
+          <p>No venimos a decirle cómo operar. Venimos a mostrarle una exploración real, construida, que puede recorrer y juzgar por sí mismo.</p>
+        </div>
+        <dl class="roles" data-reveal>
+          <div><dt class="mono gold">Juan</dt><dd>Dirección editorial, identidad y sistema visual.</dd></div>
+          <div><dt class="mono gold">Roger</dt><dd>Desarrollo digital, interacción y arquitectura técnica.</dd></div>
+          <div><dt class="mono gold">El método</dt><dd>Primero construir, luego conversar. Por eso existe un boceto antes que una propuesta.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 02 · OBSERVACIÓN -->
+    <section class="chapter" data-theme="dark" data-chapter="02 — La observación" aria-labelledby="t-obs">
+      <div class="chapter__head">
+        <p class="mono gold" data-reveal>02 / La observación</p>
+        <h2 id="t-obs" class="display h2" data-split>Una experiencia continua, <em>contada en fragmentos.</em></h2>
+      </div>
+
+      <div class="obs">
+        <div class="prose" data-reveal>
+          <p>Seguimos su trabajo en Instagram, Threads, TikTok y YouTube. Lo que encontramos es coherente: la técnica 4K tiene autoría, el discurso es claro y el paciente aparece acompañado antes, durante y después.</p>
+          <p>Pero ese recorrido vive repartido entre plataformas que no están diseñadas para sostenerlo. Quien evalúa una cirugía, quien prepara su viaje y quien se recupera en casa buscan cosas distintas, y hoy las encuentran mezcladas en un mismo flujo de publicaciones.</p>
+          <p class="pull display">La experiencia que usted ofrece es continua. Su presencia digital, todavía, no lo es.</p>
+        </div>
+
+        <figure class="fig fig--phone" data-figure>
+          <div class="device device--phone"><img src="capturas/hero-mobile.png" alt="Captura móvil de la apertura del boceto: torso escultórico y el titular La precisión no se nota. Se percibe." width="390" height="844" loading="lazy" /></div>
+          <figcaption class="mono"><span class="gold">Fig. 02.1</span> — Móvil · 390 px · Apertura del boceto. <span class="dim">Elegida en móvil porque es ahí donde llega quien viene desde una red social.</span></figcaption>
+        </figure>
+      </div>
+
+      <aside class="reserved" data-reveal aria-label="Espacio reservado para retrato autorizado">
+        <div class="reserved__frame"><span class="mono dim"><img src="capturas/frank.jpeg" alt="Retrato autorizado del Dr. Frank Lamadrid"></span></div>
+        <p class="mono dim">Decidimos no usar fotografías tomadas de sus perfiles sin su autorización. Este espacio queda en silencio a propósito: una imagen solo entra cuando tiene una razón y un permiso.</p>
+      </aside>
+    </section>
+
+    <!-- 03 · EXPLORACIÓN VISUAL -->
+    <section class="chapter chapter--light" data-theme="light" data-chapter="03 — La exploración visual" aria-labelledby="t-exp">
+      <div class="chapter__head">
+        <p class="mono gold-deep" data-reveal>03 / La exploración visual</p>
+        <h2 id="t-exp" class="display h2" data-split>La dirección que imaginamos, <em>ya construida.</em></h2>
+        <p class="lede" data-reveal>Cada captura está aquí porque demuestra una decisión concreta. Ninguna es decorativa.</p>
+      </div>
+
+      <article class="study study--dogma" aria-labelledby="s-dogma">
+        <div class="study__text" data-reveal>
+          <p class="mono gold-deep">03.1 · La frase como arquitectura</p>
+          <h3 id="s-dogma" class="display h3">Su dogma ocupa la pantalla entera.</h3>
+          <p>&ldquo;Mi dogma es excelentes resultados&rdquo; no se esconde en un párrafo. Aparece sola, a escala de cartel, revelándose letra a letra mientras se baja. Es el primer momento en que el visitante entiende que no está en un catálogo.</p>
+        </div>
+        <figure class="fig fig--wide" data-figure data-pin-scale>
+          <div class="device device--desktop"><span class="device__bar mono" aria-hidden="true">drfranklamadrid · filosofía</span><img src="capturas/dogma-desktop.png" alt="Captura de escritorio de la sección Filosofía con la frase Mi dogma es excelentes resultados en tipografía serif monumental, parte en oro." width="1440" height="900" loading="lazy" /></div>
+          <figcaption class="mono"><span class="gold-deep">Fig. 03.1</span> — Escritorio · 1440 px. <span class="dim">En escritorio la escala tipográfica alcanza su máximo dramatismo.</span></figcaption>
+        </figure>
+      </article>
+
+      <article class="study study--pair" aria-labelledby="s-pair">
+        <div class="study__text" data-reveal>
+          <p class="mono gold-deep">03.2 · Navegación y tipografía</p>
+          <h3 id="s-pair" class="display h3">Una misma promesa, dos pantallas.</h3>
+          <p>Serif editorial para la voz, grotesca para la información, mono para los marcadores clínicos. En escritorio, la navegación expone todo el recorrido; en móvil, se repliega para que el titular respire.</p>
+        </div>
+        <div class="pair">
+          <figure class="fig" data-figure>
+            <div class="device device--desktop"><span class="device__bar mono" aria-hidden="true">drfranklamadrid · inicio</span><img src="capturas/hero-desktop.png" alt="Captura de escritorio de la apertura del sitio con navegación completa, titular serif y escultura de torso." width="1440" height="900" loading="lazy" /></div>
+            <figcaption class="mono"><span class="gold-deep">Fig. 03.2a</span> — Escritorio · Navegación completa</figcaption>
+          </figure>
+          <figure class="fig fig--phone-sm" data-figure>
+            <div class="device device--phone"><img src="capturas/valoracion-mobile.png" alt="Captura móvil de la sección de valoración virtual con jerarquía tipográfica serif, grotesca y mono." width="390" height="844" loading="lazy" /></div>
+            <figcaption class="mono"><span class="gold-deep">Fig. 03.2b</span> — Móvil · Jerarquía en tres voces</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <article class="study study--reverse" aria-labelledby="s-4k">
+        <div class="study__text" data-reveal>
+          <p class="mono gold-deep">03.3 · Explicar sin exponer</p>
+          <h3 id="s-4k" class="display h3">La técnica 4K, dibujada en capas.</h3>
+          <p>Para hablar de precisión no hace falta mostrar cuerpos de pacientes. Un diagrama interactivo separa piel, tejido, marcación y sombra muscular. Comunica autoría y respeta la privacidad al mismo tiempo.</p>
+        </div>
+        <figure class="fig fig--wide" data-figure>
+          <div class="device device--desktop"><span class="device__bar mono" aria-hidden="true">drfranklamadrid · técnica 4k</span><img src="capturas/4k-desktop.png" alt="Captura de escritorio de la sección Técnica 4K con un diagrama lineal de torso en oro y la lista de principios de la técnica." width="1440" height="900" loading="lazy" /></div>
+          <figcaption class="mono"><span class="gold-deep">Fig. 03.3</span> — Escritorio · Diagrama por capas. <span class="dim">Necesita ancho para que diagrama y texto convivan.</span></figcaption>
+        </figure>
+      </article>
+
+      <article class="study study--split" aria-labelledby="s-val">
+        <figure class="fig fig--tablet" data-figure>
+          <div class="device device--tablet"><img src="capturas/procedimientos-tablet.png" alt="Captura en tableta de la sección Procedimientos con el titular Cada cuerpo, una arquitectura y una fotografía escultórica a página completa." width="820" height="1180" loading="lazy" /></div>
+          <figcaption class="mono"><span class="gold-deep">Fig. 03.4</span> — Tableta · 820 px. <span class="dim">El formato vertical muestra el ritmo de página.</span></figcaption>
+        </figure>
+        <div class="study__text" data-reveal>
+          <p class="mono gold-deep">03.4 · Ritmo visual</p>
+          <h3 id="s-val" class="display h3">Cada cuerpo, una arquitectura.</h3>
+          <p>El sitio alterna fondos oscuros y claros como un libro alterna capítulos. Los procedimientos se presentan como índice, no como vitrina: &ldquo;cada protocolo nace de una valoración, nunca de un catálogo&rdquo;.</p>
+        </div>
+      </article>
+
+      <article class="study" aria-labelledby="s-flow">
+        <div class="study__text" data-reveal>
+          <p class="mono gold-deep">03.5 · La experiencia empieza antes de llegar</p>
+          <h3 id="s-flow" class="display h3">Una valoración guiada, no un formulario.</h3>
+          <p>Cuatro pasos: objetivo, silueta, imágenes y datos. Es la pieza donde la promesa de &ldquo;experiencia completa&rdquo; se vuelve tangible por primera vez, desde casa.</p>
+        </div>
+        <figure class="fig fig--wide" data-figure>
+          <div class="device device--desktop"><span class="device__bar mono" aria-hidden="true">drfranklamadrid · valoración</span><img src="capturas/valoracion-desktop.png" alt="Captura de escritorio de la valoración virtual en cuatro pasos con opciones de objetivo como reducir cintura o definir abdomen." width="1440" height="900" loading="lazy" /></div>
+          <figcaption class="mono"><span class="gold-deep">Fig. 03.5</span> — Escritorio · Flujo en cuatro pasos</figcaption>
+        </figure>
+      </article>
+
+      <p class="study__link" data-reveal><a class="link mono" href="../">Recorrer el boceto en vivo <span aria-hidden="true">&rarr;</span></a></p>
+    </section>
+
+    <!-- 04 · QUÉ PODRÍA CONSTRUIRSE -->
+    <section class="chapter" data-theme="dark" data-chapter="04 — Qué podría construirse" aria-labelledby="t-build">
+      <div class="chapter__head">
+        <p class="mono gold" data-reveal>04 / Qué podría construirse</p>
+        <h2 id="t-build" class="display h2" data-split>Tres capas. <em>Una inteligencia común.</em></h2>
+        <p class="lede" data-reveal>Una visión por fases. Cada capa se valida antes de construir la siguiente.</p>
+      </div>
+
+      <ol class="journey mono" aria-label="Recorrido del paciente">
+        <li>Descubrir</li><li>Comprender</li><li>Consultar</li><li>Preparar la estancia</li><li>Continuar el acompañamiento</li>
+      </ol>
+
+      <div class="layers">
+        <article class="layer" aria-labelledby="l1">
+          <p class="mono gold">Capa 01 · Base</p>
+          <h3 id="l1" class="display h3">La experiencia web.</h3>
+          <p>El sitio, la valoración virtual y los planes de turismo médico premium que el Instituto confirme. Cada plan muestra qué incluye, qué queda sujeto a valoración y qué servicios están realmente disponibles.</p>
+          <p class="mono dim">Punto de partida realista: web adaptable y un flujo prioritario.</p>
+        </article>
+        <article class="layer" aria-labelledby="l2">
+          <p class="mono gold">Capa 02 · Continuidad</p>
+          <h3 id="l2" class="display h3">Conocimiento y acompañamiento.</h3>
+          <p>Lives, campus educativo para estudiantes y profesionales, y una app de recuperación que organice indicaciones e hitos. La app no diagnostica ni reemplaza al equipo tratante: orienta hacia él.</p>
+          <p class="mono dim">Solo tras validación clínica, de privacidad y de demanda.</p>
+        </article>
+        <article class="layer" aria-labelledby="l3">
+          <p class="mono gold">Capa 03 · Inteligencia</p>
+          <h3 id="l3" class="display h3">ICE, el motor que conecta.</h3>
+          <p>Una capa contextual compartida: señal, contexto, decisión, acción. Mantiene coherencia entre web, planes, educación, comercio de cuidado (Taniva) y apps, sin mezclar datos de pacientes, estudiantes y compradores.</p>
+          <p class="mono dim">Hoy es un concepto. Se diseña en serio solo si las capas anteriores lo justifican.</p>
+        </article>
+      </div>
+
+      <div class="limits" data-reveal>
+        <p class="mono gold">Lo que no prometemos</p>
+        <ul>
+          <li>Resultados de negocio antes de medir una línea base.</li>
+          <li>Decisiones clínicas: esas quedan siempre bajo autoridad profesional.</li>
+          <li>Construir todo a la vez. Lo que no aporte valor, se ajusta o se detiene.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 05 · INVITACIÓN -->
+    <section class="invite" data-theme="light" data-chapter="05 — La invitación" aria-labelledby="t-inv">
+      <p class="mono gold-deep" data-reveal>05 / La invitación</p>
+      <h2 id="t-inv" class="display invite__title" data-split>No es un cierre de venta. <em>Es una conversación.</em></h2>
+      <div class="cols">
+        <div class="prose" data-reveal>
+          <p>Nos gustaría escucharlo antes de proponer nada más. Entender qué de esta exploración le resuena, qué no, y qué servicios y protocolos son los que el Instituto realmente quiere poner al frente.</p>
+          <p>Si después de esa conversación tiene sentido seguir, construiremos la primera capa con usted. Si no, el boceto queda como una mirada honesta a su trabajo.</p>
+        </div>
+        <ul class="questions" data-reveal aria-label="Tres preguntas para empezar">
+          <li><span class="mono gold-deep">¿</span>Qué parte del recorrido del paciente le gustaría que nadie tuviera que adivinar?</li>
+          <li><span class="mono gold-deep">¿</span>Qué servicios puede el Instituto confirmar hoy con disponibilidad real?</li>
+          <li><span class="mono gold-deep">¿</span>Dónde siente que su presencia digital todavía no está a la altura de su promesa?</li>
+        </ul>
+      </div>
+      <div class="invite__foot" data-reveal>
+        <a class="btn mono" href="../">Ver el boceto completo <span aria-hidden="true">&rarr;</span></a>
+        <p class="mono dim">Juan &amp; Roger · Diseño editorial y desarrollo digital · Respóndanos por el mismo canal por el que recibió este documento.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

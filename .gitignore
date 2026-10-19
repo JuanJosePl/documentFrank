@@ -1,0 +1,5 @@
+# Archivos de historial local
+.history/
+
+# Datos locales: descomenta solo si NO deben subirse
+data/
